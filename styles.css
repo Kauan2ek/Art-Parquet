@@ -3,14 +3,29 @@
     margin: 0;
 }
 
-.baraa {
+.barra { /*PROVISÓRIO - APAGAR*/
     height: 7vh;
     background-color: darkblue;
+    color: white;
+
+    a {
+        color:white;
+        margin: 40px;
+    }
 }
 
 main {
     /* border: 1px solid red; */
     height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+a:hover {
+    opacity: 0.6;
 }
 
 .titulo1 {
@@ -21,18 +36,18 @@ main {
 
 .carrossel {
     border: 2px solid #3d3d3d;
-    /* border-radius: 30px; */
+    border-radius: 8px;
     height: 60vh;
     width: 79vw;
     margin: auto;
     background-color: #4141413b;
-    background: url("img/casaCorRJ.jpg");
+    background: url("img/inspiracoes/casaCorRJ.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .bloco-itens {
-    margin: 0 8vw;
+    margin: 0 8vw 8vh 8vw;
     text-align: center;
 }
 
@@ -42,11 +57,17 @@ main {
     height: 32vh;
     width: 25vw;
     margin: 1%;
+    border-radius: 6px;
     
     /* background-color: #4141413b; */
-    background-image: url("img/deckItauba.jpg");
+    /* background-image: url("img/deckItauba.jpg"); */
     background-size: cover;
     background-position: bottom;
+}
+
+.bloco-itens a {
+    display: block;
+    font-size: 1.3em;
 }
 
 @media (max-width: 950px) {
@@ -96,4 +117,16 @@ main {
         width: 40vw;
         margin: 1vh 1vw;
     }
+}
+
+footer {
+    padding-left: 8vw;
+    padding-top: 2vh;
+    background-color: black;
+    height: 18vh;
+    color: white;
+}
+
+footer p {
+
 }
