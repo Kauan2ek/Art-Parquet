@@ -1,0 +1,18 @@
+{
+    "produtos": [
+        {
+            "nome": "Cumaru Versailles",
+            "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
+            "tamanhos": ["930mm x 930mm - Sob Encomenda x DIJON - 19mm - 483 ", "890mm x 890mm - Sob Encomenda x PARIS - 19mm - 483", "890mm x 890mm - Sob Encomenda x LYON - 19mm - 483 "],
+            "especie": "Cumaru",
+            "tipo": "pisos",
+            "img": "../assets/img/produtos/Amendoim.jpeg"
+        },
+        {
+
+        },
+        {
+
+        }
+    ]
+}

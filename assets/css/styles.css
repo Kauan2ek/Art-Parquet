@@ -41,7 +41,7 @@ a:hover {
     width: 79vw;
     margin: auto;
     background-color: #4141413b;
-    background: url("img/inspiracoes/casaCorRJ.jpg");
+    background: url("../img/inspiracoes/casaCorRJ.jpg");
     background-size: cover;
     background-position: center;
 }
