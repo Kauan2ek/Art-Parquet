@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.baraa {
+    height: 7vh;
+    background-color: darkblue;
+}
+
+main {
+    /* border: 1px solid red; */
+    height: 100%;
+}
+
+.titulo1 {
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 2vh;
+}
+
+.carrossel {
+    border: 2px solid #3d3d3d;
+    /* border-radius: 30px; */
+    height: 60vh;
+    width: 79vw;
+    margin: auto;
+    background-color: #4141413b;
+    background: url("img/casaCorRJ.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.bloco-itens {
+    margin: 0 8vw;
+    text-align: center;
+}
+
+.item {
+    border: 2px solid #3d3d3d;
+    display: inline-block;
+    height: 32vh;
+    width: 25vw;
+    margin: 1%;
+    
+    /* background-color: #4141413b; */
+    background-image: url("img/deckItauba.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+@media (max-width: 950px) {
+    .carrossel {
+        border: 1px solid black;
+        /* border-radius: 30px; */
+        height: 50vh;
+        width: 79vw;
+        margin: auto;
+        background-color: red;
+    }
+
+    .bloco-itens {
+        margin: 0 8vw;
+        text-align: center;
+    }
+    
+    .item {
+        border: 1px solid black;
+        display: inline-block;
+        height: 32vh;
+        width: 38.5vw;
+        margin: 1%;
+    }
+}
+
+@media (max-width: 600px) {
+    .carrossel {
+        border: 1px solid black;
+        /* border-radius: 30px; */
+        height: 40vh;
+        width: 80vw;
+        margin: auto;
+        background-color: blueviolet;
+    }
+
+    .bloco-itens {
+        margin: auto;
+        text-align: center;
+        margin: 0vh 1vw;
+    }
+    
+    .item {
+        border: 1px solid black;
+        display: inline-block;
+        height: 18vh;
+        width: 40vw;
+        margin: 1vh 1vw;
+    }
+}
