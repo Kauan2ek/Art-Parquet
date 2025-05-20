@@ -4,6 +4,7 @@
 }
 
 .barra { /*PROVISÓRIO - APAGAR*/
+    position: relative;
     height: 8vh;
     background-color: darkblue;
     color: white;
@@ -11,6 +12,7 @@
     a {
         color:white;
         margin: 40px;
+        text-decoration: none;
     }
 }
 
@@ -19,14 +21,6 @@ main {
     height: 100%;
 }
 
-a {
-    text-decoration: none;
-    color: #3d3d3d;
-}
-
-a:hover {
-    opacity: 0.6;
-}
 
 .titulo1 {
     text-align: center;
@@ -34,161 +28,12 @@ a:hover {
     margin-bottom: 1.5vh;
 }
 
-.carrossel {
-    position: relative;
-    border: 1.7px solid #3d3d3d;
-    border-radius: 8px;
-    height: 60vh;
-    width: 79vw;
-    margin: auto;
-    /* overflow: hidden; */
-    /* background-color: #4141413b;
-    background: url("../img/inspiracoes/casaCorRJ.jpg");
-    background-size: cover;
-    background-position: center; */
-}
 
-.carrossel img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover; /* Faz a imagem se comportar como background-size: cover */
-    object-position: center; /* Centraliza a imagem, como background-position: center */
-    border-radius: 8px;
-    /* display: block; */
-}
-
-
-.seta {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    /* background: rgba(0, 0, 0, 0.3); fundo transparente escuro */
-    color: white;
-    width: 30px;
-    height: 30px;
-    /* margin: -30px; */
-    border: none;
-    font-size: 1.6rem;
-    padding: 0.35rem 1rem;
-    display: flex;
-    background-color: transparent;
-    cursor: pointer;
-    opacity: 1;
-    z-index: 2;
-    border-radius: 50%;
-}
-
-#prev-button img, #next-button img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-#prev-button {
-    left: 10px;
-}
-
-#next-button {
-    right: 10px;
-}
-
-.container-imagens {
-    width: 100%;
-    height: 100%;
-}
-.container-imagens img {
-    display: none;
-}
-
-.bloco-itens {
-    margin: 0 8vw 8vh 8vw;
-    text-align: center;
-}
-
-.item {
-    border: 2px solid #3d3d3d;
-    display: inline-block;
-    height: 32vh;
-    width: 25vw;
-    margin: 1%;
-    border-radius: 6px;
-    
-    /* background-color: #4141413b; */
-    /* background-image: url("img/deckItauba.jpg"); */
-    background-size: cover;
-    background-position: bottom;
-}
-
-.item:hover .escurecer {
-    /* animation-duration: 2s; */
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.8;
-}
-
-.bloco-itens a {
-    display: block;
-    font-size: 1.3em;
-}
-
-@media (max-width: 950px) {
-    .carrossel {
-        border: 1px solid black;
-        /* border-radius: 30px; */
-        height: 50vh;
-        width: 79vw;
-        margin: auto;
-        background-color: red;
-    }
-
-    .bloco-itens {
-        margin: 0 8vw;
-        text-align: center;
-    }
-    
-    .item {
-        border: 1px solid black;
-        display: inline-block;
-        height: 32vh;
-        width: 38.5vw;
-        margin: 1%;
-    }
-}
-
-@media (max-width: 600px) {
-    .carrossel {
-        border: 1px solid black;
-        /* border-radius: 30px; */
-        height: 40vh;
-        width: 80vw;
-        margin: auto;
-        background-color: blueviolet;
-    }
-
-    .bloco-itens {
-        margin: auto;
-        text-align: center;
-        margin: 0vh 1vw;
-    }
-    
-    .item {
-        border: 1px solid black;
-        display: inline-block;
-        height: 18vh;
-        width: 40vw;
-        margin: 1vh 1vw;
-    }
-}
-
+/* Rodapé */
 footer {
     padding-left: 8vw;
     padding-top: 2vh;
     background-color: black;
     height: 18vh;
     color: white;
-}
-
-footer p {
-
 }

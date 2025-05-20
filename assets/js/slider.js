@@ -4,6 +4,7 @@ const slider = document.querySelectorAll('.slider');
 const btnPrev = document.querySelector('#prev-button');
 const btnNext = document.querySelector('#next-button');
 
+
 let currentSlide = 0;
 
 function hideSlider () {
