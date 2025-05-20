@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container-produto {
+    max-width: 90vw;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    height: 60vh;
+    margin: 0 auto;
+    padding: 2vh 4vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagens-produto {
+    border: 2px solid rgb(92, 92, 92);
+    margin: 0vh .5vw;
+    flex: 1 1 350px;
+    aspect-ratio: 4/3;
+    border-radius: 8px;
+    position: relative;
+    min-width: 280px;
+    max-width: 600px;
+    /* height: 100%; */
+    width: 100%;
+
+    background-image: url("../img/produtos/garagem.jpg");
+    overflow: hidden;
+    background-size: cover;
+    background-position: bottom;
+    /* margin-right: 0; */
+}
+
+.info-produto {
+    flex: 1 1 300px;
+    /* border: 2px solid blueviolet; */
+    margin: 0 .5vw;
+    min-width: 280px;
+    max-width: 600px;
+    width: 100%;
+    /* height: 100%; */
+    /* margin-left: 0; */
+}
+
+.marca {
+    color: #b35000;
+}
+
+.descricao {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.8rem;
+}
+
+.imagens-produto::after {
+    content: "● ○ ○ ○ ○";
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.titulo1 {
+    margin-top: 0;
+}
