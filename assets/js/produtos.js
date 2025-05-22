@@ -6,8 +6,14 @@ const URL = window.location.href;
 if (URL.includes("mais=true")) {
     setTimeout(() => {
         atualizarItens();
-        carregarItens();
+        exibirNovosItens();
     }, 1000);
+}
+
+let id = -1; // No caso de o ID não existir
+if (URL.includes("id")) {
+    id = URL.slice(URL.indexOf("id") + 3) - 1;
+    console.log(id);
 }
 
 // Parte de exibir novas divs de itens
@@ -31,13 +37,13 @@ function atualizarItens() {
 
 
 
-function carregarItens() {
+function exibirNovosItens() {
     // console.log(produtos);
     qtdNovosItens = 6;
 
     /// produtos.length < itensExistentes.length + 6 && itensExistentes.length > 6
     // Caso possua menos de 6 imagens novas para exibir, apresenta somente a quantidade existente
-    if (itensExistentes.length + 6 > produtos.length) { 
+    if (itensExistentes.length + 6 > produtos.length) {
         qtdNovosItens = produtos.length - itensExistentes.length;
         verMaisP.style.display = 'none'; // O botão de ver mais some
         blocoItens.style.marginBottom = '8vw'; // Dá um espaçamento no bloco de itens
@@ -77,10 +83,23 @@ function carregarItens() {
 
 verMaisP.addEventListener('click', () => {
     atualizarItens();
-    carregarItens();
+    exibirNovosItens();
 });
 
 
+function exibirInfoProduto() {
+    if (id > -1) {
+        // Página de produtos
+        const nomeProdutoH2 = document.querySelector(".nome-produto");
+        const marcaP = document.querySelector(".marca");
+        const descricaoP = document.querySelector(".descricao");
+
+        nomeProdutoH2.textContent = produtos[id].nome;
+        marcaP.textContent = produtos[id].marca;
+        descricaoP.textContent = produtos[id].descricao;
+        console.log(produtos[id])
+    }
+}
 
 
 
@@ -93,5 +112,10 @@ async function carregarJSON() {
 
     // console.log(produtos);
     // Executando os primeiros 6 itens
-    carregarItens();
+    exibirNovosItens();
+
+    if (id > -1) {
+        exibirInfoProduto();
+    }
+
 }
