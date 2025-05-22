@@ -39,13 +39,13 @@ function prevSlider () {
 
 
 btnPrev.addEventListener('click', () => {
-    console.log("prev clicado");
+    // console.log("prev clicado");
 
     prevSlider();
 });
 
 btnNext.addEventListener('click', () => {
-    console.log("next clicado");
+    // console.log("next clicado");
 
     nextSlider();
 });
