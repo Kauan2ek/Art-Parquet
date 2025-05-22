@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <script>
+function classToggle() {
+  const navs = document.querySelectorAll('.Navbar__Items')
+  
+  navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+}
+
+document.querySelector('.Navbar__Link-toggle')
+
+function toggleMenu() {
+      const menu = document.getElementById('menuLinks');
+      menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+    }
+
+    // Fecha o menu se clicar fora
+    window.addEventListener('click', function (e) {
+      const menu = document.getElementById('menuLinks');
+      const button = document.querySelector('.botao-fixo');
+      if (!menu.contains(e.target) && !button.contains(e.target)) {
+        menu.style.display = 'none';
+      }
+    });
+</script>
+<style>
+    *{margin:0;
+    padding: 0;}
+.Navbar {
+  background-color: #003057;
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
+  color: #ffffff;
+  height: 4.5vh;
+  width: 100vw;
+  border-bottom: #003057;
+}
+
+.Navbar__Link {
+  padding-right: 8px;
+}
+
+.Navbar__Items {
+  display: flex;
+}
+
+.Navbar__Items--right {
+  margin-left:auto;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+    
+.Navbar__Items {
+    display:none;
+  }
+    
+.Navbar__Items--right {
+    margin: left 16px;
+  }
+    
+.Navbar__ToggleShow {
+    display: flex;
+  }
+    
+.Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+   } 
+}
+table.navbar td a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  table.navbar {
+    background-color: #eee;
+    width: 100%;
+    text-align: center;
+  }
+  table.navbar td a:hover {
+    background-color: #ccc;
+  }
+     /* Botão fixo no topo direito */
+     .botao-fixo {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 9999;
+      background-color: #007bff;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      display: none; /* Oculto por padrão */
+    }
+
+    /* Menu de links */
+    .menu-links {
+      position: fixed;
+      top: 60px;
+      right: 20px;
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      display: none;
+      flex-direction: column;
+      min-width: 150px;
+      z-index: 9998;
+    }
+
+    .menu-links a {
+      padding: 10px;
+      text-decoration: none;
+      color: #333;
+      border-bottom: 1px solid #eee;
+    }
+
+    .menu-links a:hover {
+      background-color: #f0f0f0;
+    }
+
+    .menu-links a:last-child {
+      border-bottom: none;
+    }
+
+    /* Mostrar botão em telas pequenas */
+    @media (max-width: 768px) {
+      .botao-fixo {
+        display: block;
+      }
+    }
+    table.navbar td a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  table.navbar {
+    background-color: #eee;
+    width: 100%;
+    text-align: center;
+  }
+  table.navbar td a:hover {
+    background-color: #ccc;
+  }
+  </style>
+</head>
+<body>
+
+  <button class="botao-fixo" onclick="toggleMenu()">☰ Menu</button>
+
+  <div class="menu-links" id="menuLinks">
+    <a href="#home">🏠 Início</a>
+    <a href="#sobre">ℹ️ Sobre</a>
+    <a href="#contato">📞 Contato</a>
+  </div>
+  <div class="Navbar">
+    <div class="Navbar__Link Navbar__Link-brand">
+       Website title
+     </div>
+     <div class="Navbar__Link Navbar__Link-toggle">
+       <i class="fas fa-bars"></i>
+     </div>
+   <nav class="Navbar__Items">
+     
+   </nav>
+   <nav class="Navbar__Items Navbar__Items--right">
+    <table class="navbar">
+        <tr>
+          <td><a href="#home">Home</a></td>
+          <td><a href="#sobre">Sobre</a></td>
+          <td><a href="#servicos">Serviços</a></td>
+          <td><a href="#portfolio">Portfólio</a></td>
+          <td><a href="#contato">Contato</a></td>
+        </tr>
+      </table>
+   </nav>
+ </div>
+</body>
+</html>
