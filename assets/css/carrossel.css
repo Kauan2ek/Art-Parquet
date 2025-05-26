@@ -204,7 +204,7 @@
 @media (max-width: 950px) {
     .carrossel {
         /* border: 1px solid black; */
-        /* border-radius: 30px; */
+        border-radius: 30px;
         height: 50vh;
         width: 79vw;
         margin: auto;
@@ -216,8 +216,8 @@
     .carrossel {
         /* border: 1px solid black; */
         /* border-radius: 30px; */
-        height: 40vh;
-        width: 80vw;
+        height: 33vh;
+        width: 85vw;
         margin: auto;
         /* background-color: blueviolet; */
     }
