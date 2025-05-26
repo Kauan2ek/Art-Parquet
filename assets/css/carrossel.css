@@ -112,7 +112,7 @@
 /* Manter daqui para baixo */
 .slider {
     opacity: 0;
-    transition: opacity .8s;
+    transition: opacity .8s ease;
     /* position: absolute; */
     /* width: 100%; */
 }
@@ -200,11 +200,11 @@
     transform: rotate(180deg);
 }
 
-
+/*No meu A53 é esse media query que está usando*/
 @media (max-width: 950px) {
     .carrossel {
         /* border: 1px solid black; */
-        border-radius: 30px;
+        /* border-radius: 30px; */
         height: 50vh;
         width: 79vw;
         margin: auto;
