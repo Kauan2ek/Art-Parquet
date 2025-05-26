@@ -11,7 +11,7 @@
       font-family: sans-serif;
       color: #ffffff;
       height: 10vh;
-      width: 100vw;
+      max-width: 100vw;
     }
 
     /* Estilo dos links da navbar */

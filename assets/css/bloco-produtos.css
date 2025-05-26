@@ -68,7 +68,7 @@
 
 @media (max-width: 950px) {
     .bloco-itens {
-        margin: 0 8vw;
+        margin: 0 8vw 8vh 8vw;
         text-align: center;
     }
     
@@ -83,17 +83,18 @@
 
 @media (max-width: 600px) {
     .bloco-itens {
-        margin: auto;
+        margin: 0 8vw 8vh 8vw;
+        /* margin: auto; */
         text-align: center;
-        margin: 0vh 1vw;
+        margin: 8vh 1vw;
     }
     
     .item {
-        /* border: 1px solid #3d; */
-        display: inline-block;
-        height: 18vh;
-        width: 40vw;
-        margin: 1vh 1vw;
+        /* border: 1px solid #243d; */
+        display: block;
+        height: 38.25vh;
+        width: 85vw;
+        margin: 5vh auto;
     }
 }
 
