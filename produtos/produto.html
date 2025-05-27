@@ -14,14 +14,35 @@
 
 <body>
     <header>
-        <nav>
-            <div class="barra"><!--PROVISÓRIO - APAGAR -->
-                <a href="/">Home</a>
-                <a href="/produtos/">Produtos</a>
-                <a href="">Inspirações</a>
-                <a href="">Sobre nós</a>
+        <!-- Botão fixo que abre o menu flutuante (visível apenas em mobile) -->
+        <button class="botao-fixo" onclick="toggleMenu()">☰ Menu</button>
+
+        <!-- Menu flutuante (aparece ao clicar no botão) -->
+        <div class="menu-links" id="menuLinks">
+            <a href="#home">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </div>
+
+        <!-- Navbar principal -->
+        <div class="Navbar">
+            <!-- Título/logo do site -->
+            <div class="Navbar__Link Navbar__Link-brand">
+                Website title
             </div>
-        </nav>
+            <!-- Navegação principal (tabela usada para alinhar os links) -->
+            <nav class="Navbar__Items Navbar__Items--right">
+                <table class="navbar">
+                    <tr>
+                        <td><a href="#home">Home</a></td>
+                        <td><a href="#sobre">Sobre</a></td>
+                        <td><a href="#servicos">Serviços</a></td>
+                        <td><a href="#portfolio">Portfólio</a></td>
+                        <td><a href="#contato">Contato</a></td>
+                    </tr>
+                </table>
+            </nav>
+        </div>
     </header>
 
     <!-- Conteúdo principal -->
