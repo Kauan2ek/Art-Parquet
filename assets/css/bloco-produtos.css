@@ -1,6 +1,6 @@
 /* Nossos Produtos */
 .bloco-itens {
-    margin: 0 8vw 8vh 8vw;
+    margin: 0 8vw;
     text-align: center;
 }
 
@@ -11,7 +11,7 @@
     width: 25vw;
     margin: 1%;
     border-radius: 6px;
-    
+
     /* background-color: #4141413b; */
     /* background-image: url("img/deckItauba.jpg"); */
     background-size: cover;
@@ -44,7 +44,7 @@
 
 .escurecer:hover {
     background-color: #000;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .escurecer:hover p {
@@ -61,17 +61,16 @@
     transition: opacity .2s ease;
 }
 
-.bloco-itens a:hover {
-    /* color: red; */
-    opacity: 0.6;
+.item a {
+    background-color: transparent;
 }
 
 @media (max-width: 950px) {
     .bloco-itens {
-        margin: 0 8vw 8vh 8vw;
+        margin: 0 8vw 0vh 8vw;
         text-align: center;
     }
-    
+
     .item {
         /* border: 1px solid black; */
         display: inline-block;
@@ -83,12 +82,12 @@
 
 @media (max-width: 600px) {
     .bloco-itens {
-        margin: 0 8vw 8vh 8vw;
+        /* margin: 0 8vw 0vh 8vw; */
         /* margin: auto; */
         text-align: center;
         margin: 8vh 1vw;
     }
-    
+
     .item {
         /* border: 1px solid #243d; */
         display: block;
@@ -104,10 +103,9 @@
     font-size: 1.3em;
     text-decoration: none;
     text-align: center;
-    color: #3d3d3d;
+    color: #242424;
     transition: opacity .2s ease;
-    margin-bottom: 8vw;
-
+    margin-bottom: 5vw;
     cursor: pointer;
 }
 

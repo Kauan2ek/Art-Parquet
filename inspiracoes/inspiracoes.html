@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,48 @@
 
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
+
 <body>
     <header>
-        <nav>
-            <div class="barra"><!--PROVISÓRIO - APAGAR -->
-                <a href="/">Home</a>
-                <a href="/produtos/produtos.html">Produtos</a>
-                <a href="/inspiracoes/inspiracoes.html">Inspirações</a>
-                <a href="">Sobre nós</a>
+        <!-- Botão fixo que abre o menu flutuante (visível apenas em mobile) -->
+        <button class="botao-fixo" onclick="toggleMenu()">☰ Menu</button>
+
+        <!-- Menu flutuante (aparece ao clicar no botão) -->
+        <div class="menu-links" id="menuLinks">
+            <a href="../index.html">Início</a>
+            <a href="../inspiracoes/inspiracoes.html">Inspirações</a>
+            <a href="../produtos/produtos.html">Produtos</a>
+            <a href="../sobre/sobre-nos.html">Sobre</a>
+            <a href="#Link do WhatsApp">Contato</a>
+        </div>
+
+        <!-- Navbar principal -->
+        <div class="Navbar">
+            <!-- Título/logo do site -->
+            <div class="Navbar__Link Navbar__Link-brand">
+                <a href="../index.html">Art Parque</a>
             </div>
-        </nav>
+            <!-- Navegação principal (tabela usada para alinhar os links) -->
+            <nav class="Navbar__Items Navbar__Items--right">
+                <table class="navbar">
+                    <tr>
+                        <td><a href="../index.html">Inicio</a></td>
+                        <td><a href="../inspiracoes/inspiracoes.html">Inspirações</a></td>
+                        <td><a href="../produtos/produtos.html">Produtos</a></td>
+                        <td><a href="#Link do WhatsApp">Contato</a></td>
+                        <td><a href="../sobre/sobre-nos.html">Sobre nós</a></td>
+                    </tr>
+                </table>
+            </nav>
+        </div>
     </header>
 
     <main>
         <h1 class="titulo1">Inspirações</h1>
     </main>
+
+
+    <script src="../assets/js/menu.js"></script>
 </body>
+
 </html>
