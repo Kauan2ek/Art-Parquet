@@ -1,167 +1,171 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
- /* Estilo da barra de navegação principal */
-    .Navbar {
-      background-color: #003057; /* Cor de fundo azul escuro */
-      display: flex;
-      padding: 16px;
-      font-family: sans-serif;
-      color: #ffffff;
-      height: 10vh;
-      max-width: 100vw;
-    }
+/* Estilo da barra de navegação principal */
+.Navbar {
+  background-color: #003057;
+  /* Cor de fundo azul escuro */
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
+  color: #ffffff;
+  height: 10vh;
+  max-width: 100vw;
+}
 
-    /* Estilo dos links da navbar */
-    .Navbar__Link {
-      padding-right: 8px;
-    }
+/* Estilo dos links da navbar */
+.Navbar__Link {
+  padding-right: 8px;
+}
 
-    /* Container dos itens da navbar (flexbox) */
-    .Navbar__Items {
-      display: flex;
-    }
+/* Container dos itens da navbar (flexbox) */
+.Navbar__Items {
+  display: flex;
+}
 
-    /* Alinha os itens à direita */
-    .Navbar__Items--right {
-      margin-left: auto;
-    }
+/* Alinha os itens à direita */
+.Navbar__Items--right {
+  margin-left: auto;
+}
 
-    /* Botão de toggle (menu mobile) - inicialmente oculto */
-    .Navbar__Link-toggle {
-      display: none;
-    }
+/* Botão de toggle (menu mobile) - inicialmente oculto */
+.Navbar__Link-toggle {
+  display: none;
+}
 
-    /* Botão flutuante no canto superior direito (para mobile) */
-    .botao-fixo {
-      position: fixed;
-      top:10px;
-      right: 20px;
-      z-index: 9999;
-      background-color: #007bff;
-      color: white;
-      padding: 10px 15px;
-      border: none;
-      border-radius: 5px;
-      font-size: 16px;
-      cursor: pointer;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-      display: none; /* Oculto por padrão (só aparece em mobile) */
-    }
+/* Botão flutuante no canto superior direito (para mobile) */
+.botao-fixo {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  z-index: 9999;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  display: none;
+  /* Oculto por padrão (só aparece em mobile) */
+}
 
-    /* Estilo do menu flutuante (aparece ao clicar no botão) */
-    .menu-links {
-      position: fixed;
-      top: 60px;
-      right: 20px;
-      background-color: white;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      display: none; /* Oculto por padrão */
-      flex-direction: column;
-      min-width: 150px;
-      z-index: 9998;
-    }
+/* Estilo do menu flutuante (aparece ao clicar no botão) */
+.menu-links {
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: none;
+  /* Oculto por padrão */
+  flex-direction: column;
+  min-width: 150px;
+  z-index: 9998;
+}
 
-    /* Estilo dos links do menu flutuante */
-    .menu-links a {
-      padding: 10px;
-      text-decoration: none;
-      color: #333;
-      border-bottom: 1px solid #eee;
-    }
+/* Estilo dos links do menu flutuante */
+.menu-links a {
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
 
-    /* Efeito hover nos links do menu */
-    .menu-links a:hover {
-      background-color: #f0f0f0;
-    }
+/* Efeito hover nos links do menu */
+.menu-links a:hover {
+  background-color: #f0f0f0;
+}
 
-    /* Estilo da tabela usada como navbar (desktop) */
-    table.navbar {
-      background-color: #eee;
-      width: 100%;
-      text-align: center;
-    }
+/* Estilo da tabela usada como navbar (desktop) */
+table.navbar {
+  background-color: #eee;
+  width: 100%;
+  text-align: center;
+}
 
-    /* Estilo dos links da tabela/navbar */
-    table.navbar td a {
-      display: inline-block;
-      padding: 10px 10px;
-      text-decoration: none;
-      color: #333;
-      font-weight: bold;
-    }
+/* Estilo dos links da tabela/navbar */
+table.navbar td a {
+  display: inline-block;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
 
-    /* Efeito hover nos links da navbar */
-    table.navbar td a:hover {
-      background-color: #ccc;
-    }
+/* Efeito hover nos links da navbar */
+table.navbar td a:hover {
+  background-color: #ccc;
+}
 
-    /* Media Query para dispositivos móveis (max-width: 768px) */
-    @media only screen and (max-width: 768px) {
-      /* Muda a direção do flex para coluna */
-      .Navbar__Items,
-      .Navbar {
-        flex-direction: column;
-      }
+/* Media Query para dispositivos móveis (max-width: 768px) */
+@media only screen and (max-width: 768px) {
 
-      /* Oculta os itens da navbar em mobile */
-      .Navbar__Items {
-        display: none;
-      }
+  /* Muda a direção do flex para coluna */
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
 
-      /* Ajuste de margem para itens alinhados à direita */
-      .Navbar__Items--right {
-        margin-left: 16px;
-      }
+  /* Oculta os itens da navbar em mobile */
+  .Navbar__Items {
+    display: none;
+  }
 
-      /* Classe que mostra os itens quando o menu é aberto */
-      .Navbar__ToggleShow {
-        display: flex;
-      }
+  /* Ajuste de margem para itens alinhados à direita */
+  .Navbar__Items--right {
+    margin-left: 16px;
+  }
 
-      /* Mostra o botão de toggle em mobile */
-      .Navbar__Link-toggle {
-        align-self: flex-end;
-        display: initial;
-        position: absolute;
-        cursor: pointer;
-      }
+  /* Classe que mostra os itens quando o menu é aberto */
+  .Navbar__ToggleShow {
+    display: flex;
+  }
 
-      /* Mostra o botão flutuante em mobile */
-      .botao-fixo {
-        display: block;
-      }
-    }
+  /* Mostra o botão de toggle em mobile */
+  .Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
 
-    a {
-        color:white;
-        margin: 0px;
-        text-decoration: none;
-    }
+  /* Mostra o botão flutuante em mobile */
+  .botao-fixo {
+    display: block;
+  }
+}
+
+a {
+  color: white;
+  margin: 0px;
+  text-decoration: none;
+}
 
 
 main {
-    /* border: 1px solid red; */
-    height: 100%;
+  /* border: 1px solid red; */
+  height: 100%;
 }
 
 
 .titulo1 {
-    text-align: center;
-    margin-top: 6.5vh;
-    margin-bottom: 1.4vh;
+  text-align: center;
+  margin-top: 6.5vh;
+  margin-bottom: 1.4vh;
 }
 
 
 /* Rodapé */
 footer {
-    padding-left: 8vw;
-    padding-top: 2vh;
-    background-color: black;
-    height: 18vh;
-    color: white;
+  padding-left: 8vw;
+  padding-top: 2vh;
+  background-color: black;
+  height: 18vh;
+  color: white;
 }
