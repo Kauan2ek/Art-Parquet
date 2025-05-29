@@ -5,12 +5,14 @@
 }
 
 .item {
-    border: 2px solid #3d3d3d;
+    /* border: 2px solid #3d3d3d; */
     display: inline-block;
     height: 32vh;
     width: 25vw;
     margin: 1%;
-    border-radius: 6px;
+    border-radius: 3px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
 
     /* background-color: #4141413b; */
     /* background-image: url("img/deckItauba.jpg"); */
@@ -44,7 +46,7 @@
 
 .escurecer:hover {
     background-color: #000;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 .escurecer:hover p {

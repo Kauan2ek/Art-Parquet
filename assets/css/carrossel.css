@@ -8,12 +8,13 @@
 /* Carrossel */
 .carrossel {
     position: relative;
-    border: 2px solid #3d3d3d;
-    border-radius: 8px;
+    /* border: 2px solid #3d3d3d; */
     height: 60vh;
     width: 79vw;
     margin: auto;
-    /* overflow: hidden; */
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
     /* background-color: #4141413b;
     background: url("../img/inspiracoes/casaCorRJ.jpg");
     background-size: cover;
@@ -34,7 +35,7 @@
     width: 100%;
     object-fit: cover; /* Faz a imagem se comportar como background-size: cover */
     object-position: center; /* Centraliza a imagem, como background-position: center */
-    border-radius: 6px;
+    border-radius: 3px;
     /* display: block; */
 }
 
