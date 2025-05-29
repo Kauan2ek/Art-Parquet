@@ -20,7 +20,7 @@
 .container-inspiracoes .card img {
     display: block;
     width: 35dvw;
-    border-radius: 6px 6px 0 0;
+    border-radius: 3px 3px 0 0;
     margin: 0;
     /* padding: 0;
     border: 2px dotted green; */
@@ -38,6 +38,6 @@
     color: white;
     height: 7dvh;
     align-content: center;
-    border-radius: 0 0 6px 6px;
+    border-radius: 0 0 3px 3px;
     /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
 }
