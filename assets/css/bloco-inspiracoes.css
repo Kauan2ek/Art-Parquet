@@ -7,7 +7,7 @@
 }
 
 .card {
-    /* border: 1px solid aqua; */
+    border: 1px solid aqua;
     transition: transform 0.3 ease, box-shadow 0.3s ease;
     cursor: pointer;
 }
@@ -40,4 +40,34 @@
     align-content: center;
     border-radius: 0 0 3px 3px;
     /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+}
+
+@media (max-width: 768px) {
+    /* Testes */
+    /* body {
+        background-color: blue; 
+    } */
+
+    .container-inspiracoes {
+        display: block;
+        border: 2px solid green;
+        margin-bottom: 10dvh;
+    }
+
+    .card {
+        /* aspect-ratio: 3 / 4; */
+        display: block;
+        height: 35.25dvh;
+        width: 85dvw;
+        margin: 0 auto 3dvh;
+    }
+
+    .card img {
+        height: 78%;
+        min-width: 100%;
+    }
+
+    .descricao-inspiracao {
+        height: 22%;
+    }
 }
