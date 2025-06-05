@@ -162,6 +162,7 @@ main {
 
 /* Rodapé */
 footer {
+  margin-bottom: 0;
   padding-left: 8vw;
   padding-top: 2vh;
   background-color: black;

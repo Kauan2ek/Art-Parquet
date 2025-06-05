@@ -1,14 +1,14 @@
 /* Nossos Produtos */
 .bloco-itens {
-    margin: 0 8vw;
+    margin: 0 8dvw;
     text-align: center;
 }
 
 .item {
     /* border: 2px solid #3d3d3d; */
     display: inline-block;
-    height: 32vh;
-    width: 25vw;
+    height: 32dvh;
+    width: 25dvw;
     margin: 1%;
     border-radius: 3px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -74,7 +74,7 @@
     text-align: center;
     color: #242424;
     transition: opacity .2s ease;
-    margin-bottom: 5vw;
+    margin-bottom: 5dvw;
     cursor: pointer;
 }
 
@@ -85,41 +85,39 @@
 
 @media (max-width: 950px) {
     .bloco-itens {
-        margin: 0 8vw 0vh 8vw;
+        margin: 0 8dvw 0dvh 8dvw;
         text-align: center;
     }
 
     .item {
         /* border: 1px solid black; */
         display: inline-block;
-        height: 32vh;
-        width: 38.5vw;
+        height: 32dvh;
+        width: 38.5dvw;
         margin: 1%;
     }
 
     .verMais {
-        margin-bottom: 8vh;
+        margin-bottom: 8dvh;
     }
 }
 
 @media (max-width: 600px) {
     .bloco-itens {
-        /* margin: 0 8vw 0vh 8vw; */
-        /* margin: auto; */
         text-align: center;
-        margin: -3vh 1vw 10vh 1vw;
+        margin: -3dvh 1dvw 10dvh 1dvw;
     }
 
     .item {
         /* border: 1px solid #243d; */
         display: block;
-        height: 38.25vh;
-        width: 85vw;
-        margin: 5vh auto;
+        height: 38.25dvh;
+        width: 85dvw;
+        margin: 5dvh auto;
     }
 
     .verMais {
-        margin-bottom: 8vh;
+        margin-bottom: 8dvh;
     }
 }
 
