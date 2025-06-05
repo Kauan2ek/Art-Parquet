@@ -7,7 +7,7 @@
 }
 
 .card {
-    /* border: 1px solid aqua; */
+    border: 1px solid aqua;
     transition: transform 0.3 ease, box-shadow 0.3s ease;
     cursor: pointer;
 }
@@ -20,6 +20,7 @@
 .container-inspiracoes .card img {
     display: block;
     width: 35dvw;
+    height: 85%;
     border-radius: 3px 3px 0 0;
     margin: 0;
     /* padding: 0;
@@ -36,13 +37,13 @@
     font-weight: bold;
     text-align: center;
     color: white;
-    height: 7dvh;
+    height: 18%;
     align-content: center;
     border-radius: 0 0 3px 3px;
     /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     /* Testes */
     /* body {
         background-color: blue; 
