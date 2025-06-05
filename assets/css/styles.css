@@ -8,7 +8,7 @@
 
 /* Estilo da barra de navegação principal */
 .Navbar {
-  background-color: #2f4f3e;
+  background-color: #FFFAF6;
   display: flex;
   padding: 16px;
   font-family: sans-serif;
@@ -32,61 +32,16 @@
   margin-left: auto;
 }
 
-/* Botão de toggle (menu mobile) - inicialmente oculto */
-.Navbar__Link-toggle {
-  display: none;
-}
 
-/* Botão flutuante no canto superior direito (para mobile) */
-.botao-fixo {
-  position: fixed;
-  top: 10px;
-  right: 20px;
-  z-index: 9999;
-  background-color: #506536;
-  color: #b5dcb0;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  box-shadow: 0 2px 6px rgba(16, 34, 0, 0.2);
-  display: none;
-  /* Oculto por padrão (só aparece em mobile) */
-}
-
-/* Estilo do menu flutuante (aparece ao clicar no botão) */
-.menu-links {
-  position: fixed;
-  top: 60px;
-  right: 20px;
-  background-color: #b5dcb0;
-  border: 1px solid #99c493;
-  border-radius: 5px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  display: none;
-  /* Oculto por padrão */
-  flex-direction: column;
-  min-width: 150px;
-  z-index: 9998;
-}
-
-/* Estilo dos links do menu flutuante */
-.menu-links a {
-  padding: 10px;
-  text-decoration: none;
-  color: #333;
-  border-bottom: 1px solid #eee;
-}
 
 /* Efeito hover nos links do menu */
 .menu-links a:hover {
-  background-color: #000000;
+  background-color: #f6f4f2;
 }
 
 /* Estilo da tabela usada como navbar (desktop) */
 table.navbar {
-  background-color: #b5dcb0;
+  background-color: #f6f4f2;
   width: 100%;
   text-align: center;
 }
@@ -102,7 +57,53 @@ table.navbar td a {
 
 /* Efeito hover nos links da navbar */
 table.navbar td a:hover {color: #ffffff;
-  background-color: #866541;
+  background-color: #b29678;
+}
+/* Botão de toggle (menu mobile) - inicialmente oculto */
+.Navbar__Link-toggle {
+  display: none;
+}
+
+/* Botão flutuante no canto superior direito (para mobile) */
+.botao-fixo {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  z-index: 9999;
+  background-color: #f6f4f2;
+  color: #5c8d56;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(16, 34, 0, 0.2);
+  display: none;
+  /* Oculto por padrão (só aparece em mobile) */
+}
+
+/* Estilo do menu flutuante (aparece ao clicar no botão) */
+.menu-links {
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  background-color: #5c8d56;
+  border: 1px solid #5c8d56;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: none;
+  /* Oculto por padrão */
+  flex-direction: column;
+  min-width: 150px;
+  z-index: 9998;
+}
+
+/* Estilo dos links do menu flutuante */
+.menu-links a {
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #eee;
 }
 
 /* Media Query para dispositivos móveis (max-width: 768px) */
