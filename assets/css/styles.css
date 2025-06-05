@@ -5,6 +5,25 @@
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
+@font-face {
+  font-family: "Playfair";
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+a, p, div {
+  font-family: Lato;
+}
+
+h1 {
+  font-family: Playfair;
+}
+
+
 
 /* Estilo da barra de navegação principal */
 .Navbar {
