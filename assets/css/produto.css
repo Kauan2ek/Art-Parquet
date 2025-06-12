@@ -19,9 +19,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    margin: 5vh 5vw 5vh 5vw;
+    margin: 8.8vh 5vw 5vh 5vw;
     height: 60vh;
-
     gap: 1vw;
 }
 
@@ -75,7 +74,7 @@
     margin-bottom: 1.8rem;
 }
 
-.imagens-produto::after {
+/* .imagens-produto::after {
     content: "● ○ ○ ○ ○";
     position: absolute;
     bottom: 1rem;
@@ -83,7 +82,7 @@
     transform: translateX(-50%);
     font-size: 1.4rem;
     color: #fff;
-}
+} */
 
 .titulo1 {
     margin-top: 0;
