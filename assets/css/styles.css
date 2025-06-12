@@ -15,7 +15,24 @@
   src: url(../fonts/Lato/Lato-Regular.ttf);
 }
 
-a, p, div {
+@font-face {
+  font-family: "Bodoni";
+  src: url(../fonts/BodoniModa/BodoniModa-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fonts/OpenSans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+
+
+nav, main {
   font-family: Lato;
 }
 
@@ -39,11 +56,20 @@ h1 {
 /* Estilo dos links da navbar */
 .Navbar__Link {
   padding-right: 8px;
+  /* border: 1px solid red; */
+  /* margin-top: auto;
+  margin-bottom: auto; */
+  margin-left: 6vw;
+  font-size: 1.6rem;
+  font-family: "Playfair", serif;
 }
 
 /* Container dos itens da navbar (flexbox) */
 .Navbar__Items {
   display: flex;
+  height: 70%;
+  margin: 0 6vw;
+  /* border: 1px solid ; */
 }
 
 /* Alinha os itens à direita */
@@ -123,6 +149,8 @@ table.navbar td a {
 table.navbar td a:hover {color: #ffffff;
   background-color: #866541;
 }
+
+
 
 /* Media Query para dispositivos móveis (max-width: 768px) */
 @media only screen and (max-width: 768px) {
