@@ -7,7 +7,7 @@
 }
 
 .card {
-    border: 1px solid aqua;
+    /* border: 1px solid aqua; */
     transition: transform 0.3 ease, box-shadow 0.3s ease;
     cursor: pointer;
 }
