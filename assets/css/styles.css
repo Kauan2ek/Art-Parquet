@@ -40,8 +40,6 @@ h1 {
   font-family: Playfair;
 }
 
-
-
 /* Estilo da barra de navegação principal */
 .Navbar {
   background-color: #FFFAF6;
@@ -137,10 +135,10 @@ table.navbar td a:hover {color: #ffffff;
   position: fixed;
   top: 60px;
   right: 20px;
-  background-color: #5c8d56;
-  border: 1px solid #5c8d56;
+  background-color: #ffffff;
+  border: 1px solid #f6f4f2;
   border-radius: 5px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
   display: none;
   /* Oculto por padrão */
   flex-direction: column;
