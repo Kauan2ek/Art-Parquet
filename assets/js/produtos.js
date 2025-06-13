@@ -66,7 +66,7 @@ function exibirNovosItens() {
         escurecer.classList.add('escurecer');
 
         const pEscurecer = document.createElement("p");
-        pEscurecer.textContent = "AAAAAA";
+        pEscurecer.textContent = "Testes";
 
         item.append(aEscurecer);
         aEscurecer.append(escurecer);
