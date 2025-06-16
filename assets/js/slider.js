@@ -50,8 +50,8 @@ btnNext.addEventListener('click', () => {
     nextSlider();
 });
 
-console.log(slider);
+// console.log(slider);
 
 setInterval(nextSlider, 7000);
 
-console.log(slider);
+// console.log(slider);
