@@ -1,0 +1,43 @@
+
+.botprod {
+  background-color: transparent;
+  font-family: sans-serif;
+  color: #ffffff;
+  height: 10vh;
+  max-width: 70vw;
+  position: center;
+}
+
+.botprod__Link {
+  position: center;
+  font-size: 1.6rem;
+  font-family: "Playfair", serif;
+}
+
+.botprod__Items {
+  height: 100%;
+  position: center;
+  display: flex;
+}
+
+
+table.botprod {
+  background-color: transparent;
+  width: 100%;
+  text-align: center;
+  position: center;
+}
+
+table.botprod td a {
+  display: inline-block;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #555555;
+  background-color: #b29678;
+  font-weight: bold;
+  height: 7vh;
+  width: 15vw;
+}
+table.botprod td a:hover {color: #ffffff;
+  background-color: #b29678;
+}

@@ -56,12 +56,18 @@ h1 {
   font-family: sans-serif;
   color: #b5dcb0;
   height: 12dvh;
+  height: 12vh;
   max-width: 100vw;
   border-bottom: 0.1px solid rgba(61, 61, 61, 0.1);
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 10;
+  border-bottom: 0.1px solid rgba(61, 61, 61, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 
 /* Estilo dos links da navbar */
@@ -248,8 +254,34 @@ footer {
   .botao-fixo {
     display: block;
   }
+}
 
-  .Navbar__Link {
-    margin-left: -15dvw;
-  }
+a {
+  color: white;
+  margin: 0px;
+  text-decoration: none;
+}
+
+
+main {
+  /* border: 1px solid red; */
+  height: 100%;
+}
+
+
+.titulo1 {
+  text-align: center;
+  margin-top: 6.5vh;
+  margin-bottom: 1.4vh;
+}
+
+
+/* Rodapé */
+footer {
+  margin-bottom: 0;
+  padding-left: 8vw;
+  padding-top: 2vh;
+  background-color: black;
+  /* height: 32vh; */
+  color: white;
 }
