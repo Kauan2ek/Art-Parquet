@@ -55,8 +55,22 @@
   <main>
     <h1 class="titulo1">Nossos produtos</h1>
 
+    <div class="bloco-filtros">
+      <div class="barra-pesquisa">
+        <input type="text" placeholder="Pesquisar...">
+      </div>
+      <div class="bloco-opcoes">
+        <button class="filtro-btn selecionado" id="todos">Todos</button>
+        <button class="filtro-btn" id="deck">Decks</button>
+        <button class="filtro-btn" id="piso">Pisos</button>
+        <button class="filtro-btn" id="parede">Paredes</button>
+        <button class="filtro-btn" id="escada">Escadas</button>
+      </div>
+    </div>
+
+
     <div class="bloco-itens" style="margin-bottom: 0;">
-      <div class="item">
+      <div class="item" data-id="1" data-tipo="deck" data-nome="Cumaru">
         <a href="produto.html?id=1">
           <!-- Primeira imagem -->
           <img src="../assets/img/produtos/ProjetoChicoPorto22.jpg" alt="" class="primeira-imagem" loading="lazy">
@@ -67,7 +81,7 @@
           </div>
         </a>
       </div>
-      <div class="item">
+      <div class="item" data-id="2" data-tipo="deck" data-nome="Sucupira">
         <a href="produto.html?id=2">
           <!-- Primeira imagem -->
           <img src="../assets/img/produtos/deckItauba.jpg" alt="" class="primeira-imagem" loading="lazy">
@@ -78,8 +92,8 @@
           </div>
         </a>
       </div>
-      <div class="item">
-        <a href="produto.html?id=1">
+      <div class="item" data-id="3" data-tipo="piso" data-nome="Ipê">
+        <a href="produto.html?id=3" >
           <img src="../assets/img/produtos/garagem.jpg" alt="" class="primeira-imagem" loading="lazy">
           <img src="../assets/img/produtos/Amendoim.jpeg" alt="" class="segunda-imagem" loading="lazy">
           <div class="escurecer">
@@ -88,8 +102,8 @@
         </a>
       </div>
 
-      <div class="item">
-        <a href="produto.html?id=1">
+      <div class="item" data-id="4" data-tipo="piso" data-nome="Jatobá">
+        <a href="produto.html?id=4" >
           <img src="../assets/img/produtos/ProjetoChicoPorto1.jpg" alt="" class="primeira-imagem" loading="lazy">
           <img src="../assets/img/produtos/Amendoim.jpeg" alt="" class="segunda-imagem" loading="lazy">
           <div class="escurecer">
@@ -97,8 +111,8 @@
           </div>
         </a>
       </div>
-      <div class="item">
-        <a href="produto.html?id=1">
+      <div class="item" data-id="5" data-tipo="parede" data-nome="Peroba mica">
+        <a href="produto.html?id=5">
           <img src="../assets/img/produtos/ProjetoChicoPorto22.jpg" alt="" class="primeira-imagem" loading="lazy">
           <img src="../assets/img/produtos/Amendoim.jpeg" alt="" class="segunda-imagem" loading="lazy">
           <div class="escurecer">
@@ -106,12 +120,32 @@
           </div>
         </a>
       </div>
-      <div class="item">
-        <a href="produto.html?id=1">
+      <div class="item" data-id="6" data-tipo="parede" data-nome="Tauari">
+        <a href="produto.html?id=6">
           <img src="../assets/img/produtos/sacada.jpg" alt="" class="primeira-imagem" loading="lazy">
           <img src="../assets/img/produtos/Amendoim.jpeg" alt="" class="segunda-imagem" loading="lazy">
           <div class="escurecer">
             <p>Tauari</p>
+          </div>
+        </a>
+      </div>
+      
+      <div class="item" data-id="7" data-tipo="escada" data-nome="Chico Porto 1">
+        <a href="produto.html?id=7">
+          <img src="../assets/img/produtos/ProjetoChicoPorto1.jpg" alt="" class="primeira-imagem" loading="lazy">
+          <img src="../assets/img/produtos/Amendoim.jpeg" alt="" class="segunda-imagem" loading="lazy">
+          <div class="escurecer">
+            <p>Chico Porto 1</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="item" data-id="8" data-tipo="escada" data-nome="Chico Porto 2">
+        <a href="produto.html?id=8">
+          <img src="../assets/img/produtos/ProjetoChicoPorto22.jpg" alt="" class="primeira-imagem" loading="lazy">
+          <img src="../assets/img/produtos/Amendoim.jpeg" alt="" class="segunda-imagem" loading="lazy">
+          <div class="escurecer">
+            <p>Chico Porto 22</p>
           </div>
         </a>
       </div>
@@ -161,6 +195,7 @@
 
   <!-- <script src="../assets/js/produtos.js"></script> -->
   <script src="../assets/js/menu.js"></script>
+  <script src="../assets/js/pesquisa-produto.js"></script>
 </body>
 
 </html>

@@ -38,7 +38,9 @@ main {
 
 
 nav,
-main {
+main,
+input,
+button {
   font-family: Lato;
 }
 
