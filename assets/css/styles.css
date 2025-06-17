@@ -67,7 +67,7 @@ h1 {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 10;
 }
 
 /* Estilo dos links da navbar */
