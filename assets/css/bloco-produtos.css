@@ -67,6 +67,8 @@
 
 .escurecer p {
     /* display: none; */
+    /* background-color: blue; */
+    max-width: 80%;
     opacity: 0;
     pointer-events: none;
     color: white;

@@ -25,6 +25,7 @@
 }
 
 .imagens-produto {
+    background-color: black;
     justify-self: end;
     margin: 0vh .5vw;
     flex: 1 1 350px;
@@ -42,6 +43,7 @@
     overflow: hidden;
     background-size: cover;
     background-position: bottom;
+    background-repeat: no-repeat;
     /* margin-right: 0; */
 }
 
