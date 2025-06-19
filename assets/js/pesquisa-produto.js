@@ -1,8 +1,10 @@
 const allBtns = document.querySelectorAll(".filtro-btn");
 const barraPesquisa = document.querySelector("input[type=text]");
+const divSemResultados = document.querySelector(".sem-resultados");
+console.log(divSemResultados);
 let pesquisa = "", btnSelecionado = document.querySelector(".filtro-btn");
 
-let id, tipo, nome, infoItem;
+let id, tipo, nome, marca, infoItem;
 
 allBtns.forEach(btn => {
     btn.addEventListener("click", () => {
@@ -35,6 +37,7 @@ function atualizarFiltro() {
 
     const itens = document.querySelectorAll(".item");
 
+    let resultados = 0;
     itens.forEach(item => {
         // console.log(item.title);
         infoItem = item.title;
@@ -45,23 +48,22 @@ function atualizarFiltro() {
         tipo = item.dataset.tipo.toLowerCase();
         // nome = infoItem.slice(infoItem.indexOf("nome") + 5);
         nome = item.dataset.nome.toLowerCase();
+        marca = item.dataset.marca.toLowerCase();
 
         // console.log(`Pesquisa: ${pesquisa} \nid: ${id}   \ntipo: ${tipo}   \nnome: ${nome}`);
 
         if ((id.includes(pesquisa) || tipo.includes(pesquisa) || nome.includes(pesquisa)) && (tipo == btnSelecionado.id || btnSelecionado.id == 'todos')) {
             item.style.display = 'inline-block';
+            resultados++;
         } else {
             item.style.display = 'none';
         }
+
     });
+    if (resultados > 0) {
+        divSemResultados.style.display = "none";
+    } else {
+        divSemResultados.style.display = "block"
+    }
 
 }
-
-
-
-
-
-// Testes
-let str = "nome=Cumaru, id=22, cor=preto";
-
-console.log(str.slice(str.indexOf("id") + 3, str.indexOf("cor") - 2));

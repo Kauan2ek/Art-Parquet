@@ -2,160 +2,58 @@
     "produtos": [
         {
             "id": 1,
-            "nome": "Deck Itauba",
+            "nome": "Brise Carvalho",
             "marca": "Indusparquet",
             "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
-            "tamanhos": [
-                "930mm x 930mm - Sob Encomenda x DIJON - 19mm - 483 ",
-                "890mm x 890mm - Sob Encomenda x PARIS - 19mm - 483",
-                "890mm x 890mm - Sob Encomenda x LYON - 19mm - 483 "
-            ],
-            "especie": "Cumaru",
-            "tipo": "pisos",
-            "img": "../assets/img/produtos/deckItauba.jpg"
+            "tipo": "parede",
+            "img": "../assets/img/produtos/brise-carvalho.jpg",
+            "imgProduto": "../assets/img/produtos/brise-carvalho-produto.jpg"
         },
         {
             "id": 2,
-            "nome": "Amendoim",
+            "nome": "Brise Freijó",
             "marca": "Indusparquet",
             "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
-            "tamanhos": [
-                "930mm x 930mm - Sob Encomenda x DIJON - 19mm - 483 ",
-                "890mm x 890mm - Sob Encomenda x PARIS - 19mm - 483",
-                "890mm x 890mm - Sob Encomenda x LYON - 19mm - 483 "
-            ],
-            "especie": "Cumaru",
-            "tipo": "pisos",
-            "img": "../assets/img/produtos/Amendoim.jpeg"
+            "tipo": "parede",
+            "img": "../assets/img/produtos/brise-freijo.jpeg",
+            "imgProduto": "../assets/img/produtos/brise-freijo-produto.jpg"
         },
         {
             "id": 3,
-            "nome": "Cumaru Versailles",
+            "nome": "Brise Madeira",
             "marca": "Indusparquet",
             "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
-            "tamanhos": [
-                "930mm x 930mm - Sob Encomenda x DIJON - 19mm - 483 ",
-                "890mm x 890mm - Sob Encomenda x PARIS - 19mm - 483",
-                "890mm x 890mm - Sob Encomenda x LYON - 19mm - 483 "
-            ],
-            "especie": "Cumaru",
-            "tipo": "pisos",
-            "img": "../assets/img/produtos/garagem.jpg"
+            "tipo": "parede",
+            "img": "../assets/img/produtos/brise-madeira.jpg",
+            "imgProduto": "../assets/img/produtos/brise-madeira-produto.jpg"
         },
 
         {
             "id": 4,
-            "nome": "Cumaru Versailles",
+            "nome": "Brise Ultra Premium Black",
             "marca": "Indusparquet",
             "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
-            "tamanhos": [
-                "930mm x 930mm - Sob Encomenda x DIJON - 19mm - 483 ",
-                "890mm x 890mm - Sob Encomenda x PARIS - 19mm - 483",
-                "890mm x 890mm - Sob Encomenda x LYON - 19mm - 483 "
-            ],
-            "especie": "Cumaru",
-            "tipo": "pisos",
-            "img": "../assets/img/produtos/ProjetoChicoPorto1.jpg"
+            "tipo": "parede",
+            "img": "../assets/img/produtos/brise-ultra-premium-black.jpg",
+            "imgProduto": "../assets/img/produtos/brise-ultra-premium-black-produto.jpg"
         },
         {
             "id": 5,
-            "nome": "Cumaru Versailles",
-            "marca": "Art Parquet",
+            "nome": "Brise Ultra Premium Tabaco",
+            "marca": "Indusparquet",
             "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
-            "tamanhos": [
-                "930mm x 930mm - Sob Encomenda x DIJON - 19mm - 483 ",
-                "890mm x 890mm - Sob Encomenda x PARIS - 19mm - 483",
-                "890mm x 890mm - Sob Encomenda x LYON - 19mm - 483 "
-            ],
-            "especie": "Cumaru",
-            "tipo": "pisos",
-            "img": "../assets/img/produtos/ProjetoChicoPorto22.jpg"
+            "tipo": "parede",
+            "img": "../assets/img/produtos/brise-ultra-premium-tabaco.jpg",
+            "imgProduto": "../assets/img/produtos/brise-ultra-premium-tabaco-produto.jpg"
         },
         {
             "id": 6,
-            "nome": "Cumaru Versailles",
-            "marca": "Art Parquet",
-            "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
-            "tamanhos": [
-                "930mm x 930mm - Sob Encomenda x DIJON - 19mm - 483 ",
-                "890mm x 890mm - Sob Encomenda x PARIS - 19mm - 483",
-                "890mm x 890mm - Sob Encomenda x LYON - 19mm - 483 "
-            ],
-            "especie": "Cumaru",
-            "tipo": "pisos",
-            "img": "../assets/img/produtos/sacada.jpg"
-        },
-
-        {
-            "id": 7,
-            "nome": "Cumaru Versailles",
-            "marca": "Votoram",
-            "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
-            "tamanhos": [
-                "930mm x 930mm - Sob Encomenda x DIJON - 19mm - 483 ",
-                "890mm x 890mm - Sob Encomenda x PARIS - 19mm - 483",
-                "890mm x 890mm - Sob Encomenda x LYON - 19mm - 483 "
-            ],
-            "especie": "Cumaru",
-            "tipo": "pisos",
-            "img": "../assets/img/produtos/Amendoim.jpeg"
-        },
-        {
-            "id": 8,
-            "nome": "Cumaru Versailles",
+            "nome": "Deck Cumuru Frisado",
             "marca": "Indusparquet",
             "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
-            "tamanhos": [
-                "930mm x 930mm - Sob Encomenda x DIJON - 19mm - 483 ",
-                "890mm x 890mm - Sob Encomenda x PARIS - 19mm - 483",
-                "890mm x 890mm - Sob Encomenda x LYON - 19mm - 483 "
-            ],
-            "especie": "Cumaru",
-            "tipo": "pisos",
-            "img": "../assets/img/produtos/Amendoim.jpeg"
-        },
-        {
-            "id": 9,
-            "nome": "Cumaru Versailles",
-            "marca": "Indusparquet",
-            "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
-            "tamanhos": [
-                "930mm x 930mm - Sob Encomenda x DIJON - 19mm - 483 ",
-                "890mm x 890mm - Sob Encomenda x PARIS - 19mm - 483",
-                "890mm x 890mm - Sob Encomenda x LYON - 19mm - 483 "
-            ],
-            "especie": "Cumaru",
-            "tipo": "pisos",
-            "img": "../assets/img/produtos/deckItauba.jpg"
-        },
-
-        {
-            "id": 10,
-            "nome": "Cumaru Versailles",
-            "marca": "Art Parquet",
-            "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
-            "tamanhos": [
-                "930mm x 930mm - Sob Encomenda x DIJON - 19mm - 483 ",
-                "890mm x 890mm - Sob Encomenda x PARIS - 19mm - 483",
-                "890mm x 890mm - Sob Encomenda x LYON - 19mm - 483 "
-            ],
-            "especie": "Cumaru",
-            "tipo": "pisos",
-            "img": "../assets/img/produtos/Amendoim.jpeg"
-        },
-        {
-            "id": 11,
-            "nome": "Cumaru Versailles",
-            "marca": "Indusparquet",
-            "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
-            "tamanhos": [
-                "930mm x 930mm - Sob Encomenda x DIJON - 19mm - 483 ",
-                "890mm x 890mm - Sob Encomenda x PARIS - 19mm - 483",
-                "890mm x 890mm - Sob Encomenda x LYON - 19mm - 483 "
-            ],
-            "especie": "Cumaru",
-            "tipo": "pisos",
-            "img": "../assets/img/produtos/Amendoim.jpeg"
+            "tipo": "deck",
+            "img": "../assets/img/produtos/deck-cumaru-frisado.jpg",
+            "imgProduto": "../assets/img/produtos/deck-cumaru-frisado-produto.png"
         }
     ]
 }

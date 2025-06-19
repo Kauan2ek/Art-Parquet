@@ -40,7 +40,8 @@ main {
 nav,
 main,
 input,
-button {
+button,
+p {
   font-family: Lato;
 }
 

@@ -1,4 +1,4 @@
-// console.log("Produtos.js carregou!");
+console.log("Produtos.js carregou!");
 
 // URL
 const URL = window.location.href;
@@ -10,11 +10,11 @@ if (URL.includes("mais=true")) {
     }, 1000);
 }
 
-let id = -1; // No caso de o ID não existir
-if (URL.includes("id")) {
-    id = URL.slice(URL.indexOf("id") + 3) - 1;
-    console.log(id);
-}
+// let id = -1; // No caso de o ID não existir
+// if (URL.includes("id")) {
+//     id = URL.slice(URL.indexOf("id") + 3) - 1;
+//     console.log(id);
+// }
 
 // Parte de exibir novas divs de itens
 const blocoItens = document.querySelector(".bloco-itens");
@@ -35,56 +35,83 @@ function atualizarItens() {
     novosItens = [];
 }
 
+function exibirProdutos() {
 
-
-function exibirNovosItens() {
-    // console.log(produtos);
-    qtdNovosItens = 6;
-
-    /// produtos.length < itensExistentes.length + 6 && itensExistentes.length > 6
-    // Caso possua menos de 6 imagens novas para exibir, apresenta somente a quantidade existente
-    if (itensExistentes.length + 6 > produtos.length) {
-        qtdNovosItens = produtos.length - itensExistentes.length;
-        verMaisP.style.display = 'none'; // O botão de ver mais some
-        blocoItens.style.marginBottom = '8vw'; // Dá um espaçamento no bloco de itens
-    }
-    // console.log(itensExistentes.length + 6 ,qtdNovosItens, produtos.length);
-
-    for (let i = 0; i < qtdNovosItens; i++) {
-        // console.log(produtos);
-        // console.log("Itens: " + qtdNovosItens);
-        // console.log("Index:" + i)
+    produtos.forEach(produto => {
         const item = document.createElement("div");
         item.classList.add("item");
-        item.style.backgroundImage = `url('${produtos[itensExistentes.length + i].img}')`;
-        // console.log(produtos[itensExistentes.length - 6 + i].id + "" + produtos[itensExistentes.length - 6 + i].img);
+        item.dataset.id = produto.id;
+        item.dataset.nome = produto.nome;
+        item.dataset.marca = produto.marca;
+        item.dataset.tipo = produto.tipo;
 
-        const aEscurecer = document.createElement("a");
-        aEscurecer.href = `produto.html?id=${produtos[i].id}`;
+        item.innerHTML = `
+            <a href="produto.html?id=${produto.id}">
+                <img src="${produto.img}" alt="" class="primeira-imagem" loading="lazy">
+                <img src="${produto.imgProduto}" alt="" class="segunda-imagem" loading="lazy">
+                <div class="escurecer">
+                    <p>${produto.nome}</p>
+                </div>
+            </a>
+        `;
+        console.log(item);
 
-        const escurecer = document.createElement("div");
-        escurecer.classList.add('escurecer');
+        blocoItens.appendChild(item);
 
-        const pEscurecer = document.createElement("p");
-        pEscurecer.textContent = "Testes";
+    });
 
-        item.append(aEscurecer);
-        aEscurecer.append(escurecer);
-        escurecer.append(pEscurecer);
-
-
-        // Apresenta um item novo
-        novosItens.push(item);
-        blocoItens.append(novosItens[i]);
-    }
 }
 
 
 
-verMaisP.addEventListener('click', () => {
-    atualizarItens();
-    exibirNovosItens();
-});
+// function exibirNovosItens() {
+//     // console.log(produtos);
+//     qtdNovosItens = 6;
+
+//     /// produtos.length < itensExistentes.length + 6 && itensExistentes.length > 6
+//     // Caso possua menos de 6 imagens novas para exibir, apresenta somente a quantidade existente
+//     if (itensExistentes.length + 6 > produtos.length) {
+//         qtdNovosItens = produtos.length - itensExistentes.length;
+//         verMaisP.style.display = 'none'; // O botão de ver mais some
+//         blocoItens.style.marginBottom = '8vw'; // Dá um espaçamento no bloco de itens
+//     }
+//     // console.log(itensExistentes.length + 6 ,qtdNovosItens, produtos.length);
+
+//     for (let i = 0; i < qtdNovosItens; i++) {
+//         // console.log(produtos);
+//         // console.log("Itens: " + qtdNovosItens);
+//         // console.log("Index:" + i)
+//         const item = document.createElement("div");
+//         item.classList.add("item");
+//         item.style.backgroundImage = `url('${produtos[itensExistentes.length + i].img}')`;
+//         // console.log(produtos[itensExistentes.length - 6 + i].id + "" + produtos[itensExistentes.length - 6 + i].img);
+
+//         const aEscurecer = document.createElement("a");
+//         aEscurecer.href = `produto.html?id=${produtos[i].id}`;
+
+//         const escurecer = document.createElement("div");
+//         escurecer.classList.add('escurecer');
+
+//         const pEscurecer = document.createElement("p");
+//         pEscurecer.textContent = "Testes";
+
+//         item.append(aEscurecer);
+//         aEscurecer.append(escurecer);
+//         escurecer.append(pEscurecer);
+
+
+//         // Apresenta um item novo
+//         novosItens.push(item);
+//         blocoItens.append(novosItens[i]);
+//     }
+// }
+
+
+
+// verMaisP.addEventListener('click', () => {
+//     atualizarItens();
+//     exibirNovosItens();
+// });
 
 
 function exibirInfoProduto() {
@@ -112,10 +139,11 @@ async function carregarJSON() {
 
     // console.log(produtos);
     // Executando os primeiros 6 itens
-    exibirNovosItens();
+    // exibirNovosItens();
+    exibirProdutos();
 
-    if (id > -1) {
-        exibirInfoProduto();
-    }
+    // if (id > -1) {
+    //     exibirInfoProduto();
+    // }
 
 }
