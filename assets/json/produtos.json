@@ -6,8 +6,8 @@
             "marca": "Indusparquet",
             "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
             "tipo": "parede",
-            "img": "/assets/img/produtos/brise-carvalho.jpg",
-            "imgProduto": "/assets/img/produtos/brise-carvalho-produto.jpg"
+            "img": "assets/img/produtos/brise-carvalho.jpg",
+            "imgProduto": "assets/img/produtos/brise-carvalho-produto.jpg"
         },
         {
             "id": 2,
@@ -15,8 +15,8 @@
             "marca": "Indusparquet",
             "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
             "tipo": "parede",
-            "img": "/assets/img/produtos/brise-freijo.jpeg",
-            "imgProduto": "/assets/img/produtos/brise-freijo-produto.jpg"
+            "img": "assets/img/produtos/brise-freijo.jpeg",
+            "imgProduto": "assets/img/produtos/brise-freijo-produto.jpg"
         },
         {
             "id": 3,
@@ -24,8 +24,8 @@
             "marca": "Indusparquet",
             "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
             "tipo": "parede",
-            "img": "/assets/img/produtos/brise-madeira.jpg",
-            "imgProduto": "/assets/img/produtos/brise-madeira-produto.jpg"
+            "img": "assets/img/produtos/brise-madeira.jpg",
+            "imgProduto": "assets/img/produtos/brise-madeira-produto.jpg"
         },
 
         {
@@ -34,8 +34,8 @@
             "marca": "Indusparquet",
             "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
             "tipo": "parede",
-            "img": "/assets/img/produtos/brise-ultra-premium-black.jpg",
-            "imgProduto": "/assets/img/produtos/brise-ultra-premium-black-produto.jpg"
+            "img": "assets/img/produtos/brise-ultra-premium-black.jpg",
+            "imgProduto": "assets/img/produtos/brise-ultra-premium-black-produto.jpg"
         },
         {
             "id": 5,
@@ -43,8 +43,8 @@
             "marca": "Indusparquet",
             "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
             "tipo": "parede",
-            "img": "/assets/img/produtos/brise-ultra-premium-tabaco.jpg",
-            "imgProduto": "/assets/img/produtos/brise-ultra-premium-tabaco-produto.jpg"
+            "img": "assets/img/produtos/brise-ultra-premium-tabaco.jpg",
+            "imgProduto": "assets/img/produtos/brise-ultra-premium-tabaco-produto.jpg"
         },
         {
             "id": 6,
@@ -52,8 +52,8 @@
             "marca": "Indusparquet",
             "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
             "tipo": "deck",
-            "img": "/assets/img/produtos/deck-cumaru-frisadoo.jpg",
-            "imgProduto": "/assets/img/produtos/deck-cumaru-frisado-produto.png"
+            "img": "assets/img/produtos/deck-cumaru-frisadoo.jpg",
+            "imgProduto": "assets/img/produtos/deck-cumaru-frisado-produto.png"
         }
     ]
 }

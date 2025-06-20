@@ -68,8 +68,8 @@ function exibirProdutos() {
 
             item.innerHTML = `
             <a href="produto.html?id=${produto.id}">
-                <img src="${produto.img}" alt="" class="primeira-imagem" loading="lazy">
-                <img src="${produto.imgProduto}" alt="" class="segunda-imagem" loading="lazy">
+                <img src="../${produto.img}" alt="" class="primeira-imagem" loading="lazy">
+                <img src="../${produto.imgProduto}" alt="" class="segunda-imagem" loading="lazy">
                 <div class="escurecer">
                     <p>${produto.nome}</p>
                 </div>
@@ -143,7 +143,7 @@ function exibirInfoProduto() {
         const marcaP = document.querySelector(".marca");
         const descricaoP = document.querySelector(".descricao");
 
-        imgProduto.style.background = `url(${produtos[id].imgProduto})`;
+        imgProduto.style.background = `url(../${produtos[id].imgProduto})`;
         nomeProdutoH2.textContent = produtos[id].nome;
         marcaP.textContent = produtos[id].marca;
         descricaoP.textContent = produtos[id].descricao;
