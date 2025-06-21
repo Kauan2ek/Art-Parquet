@@ -25,7 +25,10 @@
 .info-nossahistoria {
   margin-bottom: 15px;
 }
-
+.info-descriçãonossahistoria {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
 .info-contato {
   margin-bottom: 15px;
 }
