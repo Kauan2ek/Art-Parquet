@@ -55,7 +55,7 @@ h1 {
   display: flex;
   padding: 16px;
   font-family: sans-serif;
-  color: #b5dcb0;
+  /* color: #b5dcb0; */
   height: 12dvh;
   height: 12vh;
   max-width: 100vw;
@@ -188,6 +188,7 @@ a {
   text-align: center;
   margin-top: 16.5dvh;
   margin-bottom: 1.4dvh;
+  text-transform: uppercase;
 }
 
 /* Rodapé */

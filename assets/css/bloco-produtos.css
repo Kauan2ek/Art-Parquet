@@ -267,3 +267,16 @@ input[type=text] {
         border-color: #333;
     }
 }
+
+
+
+
+.modal {
+    background-color: burlywood;
+    height: 60dvh;
+    width: 70dvw;
+    position: absolute;
+    top: 20dvh;
+    right: 50%;
+    display: none;
+}

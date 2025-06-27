@@ -1,10 +1,10 @@
 const allBtns = document.querySelectorAll(".filtro-btn");
 const barraPesquisa = document.querySelector("input[type=text]");
 const divSemResultados = document.querySelector(".sem-resultados");
-console.log(divSemResultados);
+// console.log(divSemResultados);
 let pesquisa = "", btnSelecionado = document.querySelector(".filtro-btn");
 
-let id, tipo, nome, marca, infoItem;
+let tipo, nome, marca, infoItem;
 
 allBtns.forEach(btn => {
     btn.addEventListener("click", () => {

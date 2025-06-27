@@ -67,18 +67,17 @@ function exibirProdutos() {
             item.dataset.tipo = produto.tipo;
 
             item.innerHTML = `
-            <a href="produto.html?id=${produto.id}">
-                <img src="../${produto.img}" alt="" class="primeira-imagem" loading="lazy">
-                <img src="../${produto.imgProduto}" alt="" class="segunda-imagem" loading="lazy">
-                <div class="escurecer">
-                    <p>${produto.nome}</p>
-                </div>
-            </a>
-        `;
+                <a href="produto.html?id=${produto.id}">
+                    <img src="../${produto.img}" alt="" class="primeira-imagem" loading="lazy">
+                    <img src="../${produto.imgProduto}" alt="" class="segunda-imagem" loading="lazy">
+                    <div class="escurecer">
+                        <p>${produto.nome}</p>
+                    </div>
+                </a>
+             `;
             console.log(item);
 
             blocoItens.appendChild(item);
-
         });
     }
 }
@@ -141,12 +140,18 @@ function exibirInfoProduto() {
         const imgProduto = document.querySelector(".imagens-produto");
         const nomeProdutoH2 = document.querySelector(".nome-produto");
         const marcaP = document.querySelector(".marca");
-        const descricaoP = document.querySelector(".descricao");
+        const descricaoP = document.querySelector("#descricao");
+        const tipoP = document.querySelector("#tipo");
+        const especieP = document.querySelector("#especie");
+        const tamanhosP = document.querySelector("#tamanhos");
 
         imgProduto.style.background = `url(../${produtos[id].imgProduto})`;
         nomeProdutoH2.textContent = produtos[id].nome;
         marcaP.textContent = produtos[id].marca;
-        descricaoP.textContent = produtos[id].descricao;
+        descricaoP.innerHTML = produtos[id].descricao;
+        tipoP.innerHTML = produtos[id].tipo;
+        especieP.innerHTML = `<strong>Espécie: </strong> ${produtos[id].especie}`;
+        tamanhosP.innerHTML = produtos[id].tamanhos;
         console.log(produtos[id])
     }
 }

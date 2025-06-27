@@ -4,56 +4,68 @@
             "id": 1,
             "nome": "Brise Carvalho",
             "marca": "Indusparquet",
-            "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
+            "descricao": "Seguindo as principais tendências de mercado, a Indusparquet aposta no Brise como revestimento de madeira para paredes e teto, ampliando seu portfólio de produtos ao transformar o material em uma opção versátil e moderna. <br>Com medidas disponíveis em diferentes tamanhos, o produto tem como diferencial o sistema de encaixe, que facilita sua instalação. O produto não é envernizado e o acabamento deve ser feito na obra.",
             "tipo": "parede",
             "img": "assets/img/produtos/brise-carvalho.jpg",
-            "imgProduto": "assets/img/produtos/brise-carvalho-produto.jpg"
+            "imgProduto": "assets/img/produtos/brise-carvalho-produto.jpg",
+            "tamanhos": "35mm x 700mm - 2600mm - Sob consulta x 19mm - 11561",
+            "especie": "Carvalho"
         },
         {
             "id": 2,
             "nome": "Brise Freijó",
             "marca": "Indusparquet",
-            "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
+            "descricao": "Seguindo as principais tendências de mercado, a Indusparquet aposta no Brise como revestimento de madeira para paredes e teto, ampliando seu portfólio de produtos ao transformar o material em uma opção versátil e moderna. <br>Com medidas disponíveis em diferentes tamanhos, o produto tem como diferencial o sistema de encaixe, que facilita sua instalação. O produto não é envernizado e o acabamento deve ser feito na obra.",
             "tipo": "parede",
             "img": "assets/img/produtos/brise-freijo.jpeg",
-            "imgProduto": "assets/img/produtos/brise-freijo-produto.jpg"
+            "imgProduto": "assets/img/produtos/brise-freijo-produto.jpg",
+            "tamanhos": "35mm x 700mm - 2600mm x 19mm - 12235",
+            "especie": "Freijó"
         },
         {
             "id": 3,
-            "nome": "Brise Madeira",
+            "nome": "Brise Cumaru",
             "marca": "Indusparquet",
-            "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
+            "descricao": "Seguindo as principais tendências de mercado, a Indusparquet aposta no Brise como revestimento de madeira para paredes e teto, ampliando seu portfólio de produtos ao transformar o material em uma opção versátil e moderna. <br>Com medidas disponíveis em diferentes tamanhos, o produto tem como diferencial o sistema de encaixe, que facilita sua instalação. O produto não é envernizado e o acabamento deve ser feito na obra.",
             "tipo": "parede",
             "img": "assets/img/produtos/brise-madeira.jpg",
-            "imgProduto": "assets/img/produtos/brise-madeira-produto.jpg"
+            "imgProduto": "assets/img/produtos/brise-madeira-produto.jpg",
+            "tamanhos": "35mm x 700mm - 2600mm x 19mm - 12506",
+            "especie": "Cumaru"
         },
 
         {
             "id": 4,
-            "nome": "Brise Ultra Premium Black",
+            "nome": "Brise MDF Ultra Premium Black",
             "marca": "Indusparquet",
-            "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
+            "descricao": "Conheça o Brise Linha Ultra Premium Preto 37, que são feitos a partir da reciclagem de garrafas PET e deixam de poluir o meio ambiente.",
             "tipo": "parede",
             "img": "assets/img/produtos/brise-ultra-premium-black.jpg",
-            "imgProduto": "assets/img/produtos/brise-ultra-premium-black-produto.jpg"
+            "imgProduto": "assets/img/produtos/brise-ultra-premium-black-produto.jpg",
+            "tamanhos": "37mm x 2700mm x 18mm - 13713",
+            "especie": "Preto"
         },
         {
             "id": 5,
-            "nome": "Brise Ultra Premium Tabaco",
+            "nome": "Brise MDF Ultra Premium Tabaco",
             "marca": "Indusparquet",
-            "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
+            "descricao": "Conheça o Brise Linha Ultra Premium Tabaco 35, que são feitos a partir da reciclagem de garrafas PET e deixam de poluir o meio ambiente.",
             "tipo": "parede",
             "img": "assets/img/produtos/brise-ultra-premium-tabaco.jpg",
-            "imgProduto": "assets/img/produtos/brise-ultra-premium-tabaco-produto.jpg"
+            "imgProduto": "assets/img/produtos/brise-ultra-premium-tabaco-produto.jpg",
+            "tamanhos": "35mm x 2700mm x 18mm - 13722",
+            "especie": "Tabaco"
         },
         {
             "id": 6,
             "nome": "Deck Cumaru Frisado",
             "marca": "Indusparquet",
-            "descricao": "O piso Versailles é desenhado artesanalmente, e sua instalação feita peça por peça com cola a base de poliuretano Indusparquet.",
+            "descricao": "O Deck Frizado possui linhas em relevo em toda a extensão das réguas e suas laterais são retas. O acabamento é com cavilha.",
             "tipo": "deck",
             "img": "assets/img/produtos/deck-cumaru-frisadoo.jpg",
-            "imgProduto": "assets/img/produtos/deck-cumaru-frisado-produto.png"
+            "imgProduto": "assets/img/produtos/deck-cumaru-frisado-produto.png",
+            "tamanhos": "100mm x 2000mm - acima x 19mm - 6616",
+            "especie": "Cumaru"
         }
     ]
 }
