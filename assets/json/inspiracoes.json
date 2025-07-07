@@ -1,0 +1,48 @@
+{
+    "inspiracoes": [
+        {
+            "id": 1,
+            "produto": "Brise Carvalho",
+            "idProduto": 1,
+            "img": "../assets/img/produtos/brise-carvalho.jpg",
+            "ambiente": "sala de jantar"
+        },
+        {
+            "id": 2,
+            "produto": "Brise Freijó",
+            "idProduto": 2,
+            "img": "../assets/img/produtos/brise-freijo.jpeg",
+            "ambiente": "sala de jantar"   
+        },
+        {
+            "id": 3,
+            "produto": "Brise Cumaru",
+            "idProduto": 3,
+            "img": "../assets/img/produtos/brise-madeira.jpg",
+            "ambiente": "sala de estar"   
+        },
+
+
+        {
+            "id": 4,
+            "produto": "Brise MDF Ultra Premium Black",
+            "idProduto": 4,
+            "img": "../assets/img/produtos/brise-ultra-premium-black.jpg",
+            "ambiente": "area de lazer"
+        },
+        {
+            "id": 5,
+            "produto": "Brise MDF Ultra Premium Tabaco",
+            "idProduto": 5,
+            "img": "../assets/img/produtos/brise-ultra-premium-tabaco.jpg",
+            "ambiente": "sala de estar"   
+        },
+        {
+            "id": 6,
+            "produto": "Deck Cumaru Frisado",
+            "idProduto": 6,
+            "img": "../assets/img/produtos/deck-cumaru-frisadoo.jpg",
+            "ambiente": "banheiro"   
+        }
+    ]
+}

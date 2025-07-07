@@ -40,7 +40,7 @@ function atualizarFiltro() {
     let resultados = 0;
     itens.forEach(item => {
         // console.log(item.title);
-        infoItem = item.title;
+        // infoItem = item.title;
 
         // id = infoItem.slice(infoItem.indexOf("id") + 3, infoItem.indexOf("tipo") - 2);
         id = item.dataset.id;

@@ -120,8 +120,11 @@
     }
 
     .imagens-produto {
+        aspect-ratio: auto;
         display: block;
+        width: 100%;
         margin: auto;
+        height: 42dvh;
     }
 
     .info-produto {

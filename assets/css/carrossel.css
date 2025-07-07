@@ -207,8 +207,8 @@
     .carrossel {
         /* border: 1px solid black; */
         /* border-radius: 30px; */
-        height: 50vh;
-        width: 79vw;
+        height: 50dvh;
+        width: 79dvw;
         margin: auto;
         /* background-color: red; */
     }
@@ -218,8 +218,8 @@
     .carrossel {
         /* border: 1px solid black; */
         /* border-radius: 30px; */
-        height: 33vh;
-        width: 85vw;
+        height: 38dvh;
+        width: 85dvw;
         margin: auto;
         /* background-color: blueviolet; */
     }

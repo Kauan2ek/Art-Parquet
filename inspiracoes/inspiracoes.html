@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
     <link rel="stylesheet" href="../assets/css/carrossel.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
-    <link rel="stylesheet" href="../assets/css/bloco-inspiracoes.css">
+    <link rel="stylesheet" href="../assets/css/bloco-inspiracoes2.css">
 
     <link rel="shortcut icon" href="../assets/icon/icon128.png" type="image/x-icon">
 </head>
@@ -52,36 +52,88 @@
 
     <main>
         <h1 class="titulo1">Inspirações</h1>
-        <div class="container-inspiracoes">
-            <div class="card">
+        <div class="bloco-filtros">
+      <div class="barra-pesquisa">
+        <input type="text" placeholder="Pesquisar...">
+      </div>
+      <div class="bloco-opcoes">
+        <button class="filtro-btn selecionado" id="todos">Todos</button>
+        <button class="filtro-btn" id="sala de estar">Sala de estar</button>
+        <button class="filtro-btn" id="sala de jantar">Sala de jantar</button>
+        <button class="filtro-btn" id="area de lazer">Área de lazer</button>
+        <button class="filtro-btn" id="piscina">Piscina</button>
+        <button class="filtro-btn" id="quarto">Quarto</button>
+        <button class="filtro-btn" id="banheiro">Banheiro</button>
+      </div>
+    </div>
+
+
+    <div class="bloco-itens" style="margin-bottom: 0;">
+      <div class="sem-resultados">
+        <img src="../assets/img/icon/lupa.svg" alt="">
+        <p>Ops... não há nenhum resultado correspondente.</p>
+      </div>
+    </div>
+        <div class="bloco-itens">
+            <!-- <div class="item">
+                <a>
+                    <img src="../assets/img/inspiracoes/ProjetoChicoPorto1 - alta.jpg" alt="" class="primeira-imagem" loading="lazy">
+                    <div class="escurecer">
+                        <p>Cumaru</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="item">
+                <a>
+                    <img src="../assets/img/inspiracoes/ProjetoChicoPorto1 - alta.jpg" alt="" class="primeira-imagem" loading="lazy">
+                    <div class="escurecer">
+                        <p>Cumaru</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item">
                 <img src="../assets/img/inspiracoes/casaCorRJ.jpg" alt="">
-                <p class="descricao-inspiracao">Casa Cor RJ</p>
+                <div class="escurecer">
+                    <p>Casa Cor RJ</p>
+                </div>
             </div>
 
-            <div class="card">
+            <div class="item">
                 <img src="../assets/img/produtos/deckItauba.jpg" alt="" loading="lazy">
-                <p class="descricao-inspiracao">Casa Cor RJ</p>
+                <div class="escurecer">
+                    <p>Casa Cor RJ</p>
+                </div>
             </div>
 
-            <div class="card">
+            <div class="item">
                 <img src="../assets/img/produtos/garagem.jpg" alt="" loading="lazy">
-                <p class="descricao-inspiracao">Casa Cor RJ</p>
+                <div class="escurecer">
+                    <p>Casa Cor RJ</p>
+                </div>
             </div>
 
-            <div class="card">
+            <div class="item">
                 <img src="../assets/img/produtos/sacada.jpg" alt="" loading="lazy">
-                <p class="descricao-inspiracao">Casa Cor RJ</p>
+                <div class="escurecer">
+                    <p>Casa Cor RJ</p>
+                </div>
             </div>
 
-            <div class="card">
+            <div class="item">
                 <img src="../assets/img/inspiracoes/casaCorRJ.jpg" alt="" loading="lazy">
-                <p class="descricao-inspiracao">Casa Cor RJ</p>
+                <div class="escurecer">
+                    <p>Casa Cor RJ</p>
+                </div>
             </div>
 
-            <div class="card">
+            <div class="item">
                 <img src="../assets/img/produtos/deckItauba.jpg" alt="" loading="lazy">
-                <p class="descricao-inspiracao">Casa Cor RJ</p>
-            </div>
+                <div class="escurecer">
+                    <p>Casa Cor RJ</p>
+                </div>
+            </div> -->
         </div>
     </main>
 
@@ -125,6 +177,7 @@
     </footer>
 
     <script src="../assets/js/menu.js"></script>
+    <script src="../assets/js/inspiracoes.js"></script>
 </body>
 
 </html>

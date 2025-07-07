@@ -14,12 +14,9 @@ if (URL.includes("produto.html?id=")) {
     console.log(id);
 }
 
-// Parte de exibir novas divs de itens
+
 const blocoItens = document.querySelector(".bloco-itens");
 const verMaisP = document.querySelector(".verMais");
-// let itensExistentes = document.querySelectorAll(".item");
-// let novosItens = [];
-// atualizarItens();
 
 // Parte do JSON
 let produtos;
@@ -46,8 +43,9 @@ function exibirProdutos() {
 
             item.innerHTML = `
             <a href="produtos/produto.html?id=${produtos[i].id}">
-                <img src="${produtos[i].img}" alt="" class="primeira-imagem" loading="lazy">
-                <img src="${produtos[i].imgProduto}" alt="" class="segunda-imagem" loading="lazy">
+                <img src="${produtos[i].imgProduto}" alt="" class="primeira-imagem" loading="lazy">    
+                <img src="${produtos[i].img}" alt="" class="segunda-imagem" loading="lazy">
+                
                 <div class="escurecer">
                     <p>${produtos[i].nome}</p>
                 </div>
@@ -68,8 +66,7 @@ function exibirProdutos() {
 
             item.innerHTML = `
                 <a href="produto.html?id=${produto.id}">
-                    <img src="../${produto.img}" alt="" class="primeira-imagem" loading="lazy">
-                    <img src="../${produto.imgProduto}" alt="" class="segunda-imagem" loading="lazy">
+                    <img src="../${produto.imgProduto}" alt="" class="primeira-imagem" loading="lazy">
                     <div class="escurecer">
                         <p>${produto.nome}</p>
                     </div>
@@ -81,57 +78,6 @@ function exibirProdutos() {
         });
     }
 }
-
-
-
-// function exibirNovosItens() {
-//     // console.log(produtos);
-//     qtdNovosItens = 6;
-
-//     /// produtos.length < itensExistentes.length + 6 && itensExistentes.length > 6
-//     // Caso possua menos de 6 imagens novas para exibir, apresenta somente a quantidade existente
-//     if (itensExistentes.length + 6 > produtos.length) {
-//         qtdNovosItens = produtos.length - itensExistentes.length;
-//         verMaisP.style.display = 'none'; // O botão de ver mais some
-//         blocoItens.style.marginBottom = '8vw'; // Dá um espaçamento no bloco de itens
-//     }
-//     // console.log(itensExistentes.length + 6 ,qtdNovosItens, produtos.length);
-
-//     for (let i = 0; i < qtdNovosItens; i++) {
-//         // console.log(produtos);
-//         // console.log("Itens: " + qtdNovosItens);
-//         // console.log("Index:" + i)
-//         const item = document.createElement("div");
-//         item.classList.add("item");
-//         item.style.backgroundImage = `url('${produtos[itensExistentes.length + i].img}')`;
-//         // console.log(produtos[itensExistentes.length - 6 + i].id + "" + produtos[itensExistentes.length - 6 + i].img);
-
-//         const aEscurecer = document.createElement("a");
-//         aEscurecer.href = `produto.html?id=${produtos[i].id}`;
-
-//         const escurecer = document.createElement("div");
-//         escurecer.classList.add('escurecer');
-
-//         const pEscurecer = document.createElement("p");
-//         pEscurecer.textContent = "Testes";
-
-//         item.append(aEscurecer);
-//         aEscurecer.append(escurecer);
-//         escurecer.append(pEscurecer);
-
-
-//         // Apresenta um item novo
-//         novosItens.push(item);
-//         blocoItens.append(novosItens[i]);
-//     }
-// }
-
-
-
-// verMaisP.addEventListener('click', () => {
-//     atualizarItens();
-//     exibirNovosItens();
-// });
 
 
 function exibirInfoProduto() {

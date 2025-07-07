@@ -1,14 +1,14 @@
 /* Nossos Produtos */
 .bloco-itens {
-    margin: 0 8dvw;
+    margin: 0 8dvw 6dvh;
     text-align: center;
 }
 
 .item {
     /* border: 2px solid red; */
     display: inline-block;
-    height: 37dvh;
-    width: 37dvh;
+    height: 35dvh;
+    width: 25dvw;
     margin: 1%;
     border-radius: 3px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -20,6 +20,7 @@
     background-position: bottom; */
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 
 
@@ -36,19 +37,6 @@
     transition: transform 0.6s ease-in-out;
 }
 
-.primeira-imagem {
-    z-index: 1;
-}
-
-/* A segunda imagem começa fora da tela à esquerda */
-.segunda-imagem {
-    z-index: 2;
-    transform: translateX(200%);
-}
-
-.item:hover .segunda-imagem {
-    transform: translateX(0%);
-}
 
 .escurecer {
     position: absolute;
@@ -196,7 +184,7 @@ input[type=text] {
     .item {
         /* border: 1px solid black; */
         display: inline-block;
-        height: 38.5dvw;
+        height: 32dvh;
         width: 38.5dvw;
         margin: 1%;
     }
@@ -215,7 +203,7 @@ input[type=text] {
     .item {
         /* border: 1px solid #243d; */
         display: block;
-        height: 85dvw;
+        height: 28dvh;
         width: 85dvw;
         margin: 2dvh auto;
     }
