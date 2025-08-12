@@ -4,7 +4,7 @@ console.log("Produtos.js carregou!");
 const URL = window.location.href;
 let index;
 // console.log(URL);
-if (URL.includes("index")) {
+if (!URL.includes("produto")) {
     index = true;
 }
 
