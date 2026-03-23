@@ -177,7 +177,6 @@ table.navbar td a:hover {
   border-bottom: 1px solid #eee;
 }
 
-
 a {
   color: white;
   margin: 0px;
@@ -185,6 +184,7 @@ a {
 }
 
 .titulo1 {
+  color: black;
   text-align: center;
   margin-top: 16.5dvh;
   margin-bottom: 1.4dvh;
